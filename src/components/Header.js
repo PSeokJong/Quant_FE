@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="bg-fbfbfb text-black px-[31px] pt-[31px] pb-0">
+    <header className="bg-fcfcfc text-black px-[31px] pt-[31px] pb-0">
       <nav>
         <ul className="flex space-x-8 items-center">
           {/* Home */}

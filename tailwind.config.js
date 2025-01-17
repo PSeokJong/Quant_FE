@@ -22,7 +22,7 @@ module.exports = {
         sans: ["Noto Sans", "sans-serif"],
       },
       colors: {
-        fbfbfb: "#fbfbfb",
+        fcfcfc: "#fcfcfc",
       },
     },
   },
