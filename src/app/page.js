@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <div className="flex flex-col items-center bg-white min-h-screen w-full">
-      <section className="min-h-screen flex items-center justify-center relative w-full overflow-hidden h-full">
+      <section className="min-h-screen flex items-center justify-center relative w-full overflow-hidden h-full ">
         <video
-          className="absolute top-0 left-0 w-full h-full object-cover bg-white"
+          className="absolute top-0 left-0 object-cover bg-white w-[101vw] h-[101vh] translate-z-0 filter brightness-100 contrast-100 focus:outline-none will-change-transform"
           src="/video/Klab.mp4"
           autoPlay
           muted
@@ -22,7 +22,7 @@ export default function Home() {
           </button>
         </a>
       </section>
-      <section className="flex flex-col items-center justify-center max-w-[720px] mx-10">
+      <section className="flex flex-col items-center justify-center max-w-[720px] mx-10 ">
         <div className="w-full flex flex-col items-start">
           <h2 className="font-bold text-[40px] leading-[55px] font-sans tracking-[0px] text-left">
             Quant
