@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <link rel="icon" href="/icon/favicon.ico" />
 
-      <body className="bg-white">
+      <body className="bg-fbfbfb">
         <Header />
         <main>{children}</main>
         <Footer />
