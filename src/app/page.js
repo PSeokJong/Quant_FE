@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <div className="flex flex-col items-center bg-white min-h-screen w-full">
-      <section className="min-h-screen flex items-center justify-center relative w-full">
+      <section className="min-h-screen flex items-center justify-center relative w-full overflow-hidden h-full">
         <video
-          className=" min-w-screen h-full "
+          className="absolute top-0 left-0 w-full h-full object-cover bg-white"
           src="/video/Klab.mp4"
           autoPlay
           muted
@@ -22,7 +22,7 @@ export default function Home() {
           </button>
         </a>
       </section>
-      <section className="flex flex-col items-center justify-center py-8 max-w-[720px] mx-10">
+      <section className="flex flex-col items-center justify-center max-w-[720px] mx-10">
         <div className="w-full flex flex-col items-start">
           <h2 className="font-bold text-[40px] leading-[55px] font-sans tracking-[0px] text-left">
             Quant
@@ -30,7 +30,7 @@ export default function Home() {
           <p className="text-[15px] leading-[25px] text-[#707070] mt-8 md:mt-1.5 text-left max-w-[600px]">
             Powered by AI & Big Data and seamless Telegram integration,
           </p>
-          <p className="text-[15px] leading-[25px] text-[#707070] text-left\ max-w-[600px]">
+          <p className="text-[15px] leading-[25px] text-[#707070] text-left max-w-[600px]">
             HypurrQuant delivers real-time market analysis and Quant investment
             strategies.
           </p>
