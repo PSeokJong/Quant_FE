@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-    <div className="flex flex-col items-center bg-white min-h-screen w-full">
+    <div className="flex flex-col items-center bg-fbfbfb min-h-screen w-full">
       <section className="min-h-screen flex items-center justify-center relative w-full overflow-hidden h-full ">
         <video
-          className="absolute top-0 left-0 object-cover bg-white w-[101vw] h-[101vh] translate-z-0 filter brightness-100 contrast-100 focus:outline-none will-change-transform"
+          className="absolute top-0 left-0 object-cover bg-fbfbfb w-[101vw] h-[101vh] translate-z-0 filter brightness-100 contrast-100 focus:outline-none will-change-transform"
           src="/video/Klab.mp4"
           autoPlay
           muted

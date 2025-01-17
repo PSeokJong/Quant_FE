@@ -21,6 +21,9 @@ module.exports = {
       fontFamily: {
         sans: ["Noto Sans", "sans-serif"],
       },
+      colors: {
+        fbfbfb: "#fbfbfb",
+      },
     },
   },
   plugins: [],

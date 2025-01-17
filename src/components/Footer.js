@@ -1,6 +1,9 @@
 function Footer() {
   return (
-    <footer className="bg-white border-t border-gray-300 pt-12 min-h-[300px] mx-10 mb-20 md:mb-0">
+    <footer
+      className="bg-fbfbfb border-t-4 pt-12 min-h-[300px] px-10 mb-20 md:mb-0"
+      style={{ borderColor: "rgba(209, 213, 219, 0.2)" }}
+    >
       <div className="container px-4 max-w-[800px] mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {/* Product Section */}
